@@ -2,6 +2,7 @@
 
 import os
 import glob
+import time
 import markdown
 from pathlib import Path
 
@@ -40,7 +41,11 @@ def generate_html(content: str):
 
     template_text = (TEMPLATE_ROOT / template_name).read_text()
 
-    return template_text.replace("{{CONTENT}}", markdown.markdown(content_text))
+    out = template_text
+    out = out.replace("{{CONTENT}}", markdown.markdown(content_text))
+    out = out.replace("{{TIME}}", str(round(time.time() * 1000)))
+
+    return out
 
 def create_parent_dirs(file_path: Path):
     file_path.parent.mkdir(exist_ok=True, parents=True)
