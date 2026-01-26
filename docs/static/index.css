@@ -18,19 +18,8 @@ body, html {
   margin: 0;
   padding: 0;
 
-  width: 100vw;
-
   font-size: 14px;
   font-family: Roboto, Helvetica, Arial, sans-serif;
-}
-
-html::-webkit-scrollbar {
-  display: none;
-}
-
-html {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 html { background-color: #000; }

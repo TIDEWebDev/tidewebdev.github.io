@@ -7,8 +7,7 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico?{{TIME}}">
 
   <script src="/static/cache-fix.js?{{TIME}}"></script>
-  <script src="/static/index.js?{{TIME}}"></script>
-  <link rel="stylesheet" href="/static/index.css?{{TIME}}">
+  <link rel="stylesheet" href="/static/style.css?{{TIME}}">
 
   <title>TIDE Academy Student Site</title>
 </head>
@@ -23,19 +22,8 @@
       <span>Engineering</span>
     </p>
   </header>
-  <nav>
-    <button class="hide-sidebar" onclick="hideMenu()">Hide menu</button>
-    <ul>
-      <li><a href="https://tideacademy.org/">Official Website</a></li>
-      <li><a href="">Site Directory</a></li>
-      <li><a href="https://sequoia.instructure.com/">TIDE Canvas</a></li>
-      <li><a href="https://foothillcollege.instructure.com/">Foothill Canvas</a></li>
-      <li><a href="https://ic.seq.org/campus/portal/sequoia.jsp">Infinite Campus</a></li>
-      <li><a href="https://teachmore.org/tideacademy/students/">TeachMore FlexTime</a></li>
-    </ul>
-  </nav>
   <article><div>
-    <button class="show-sidebar" onclick="showMenu()">Show menu</button>
+    <a class="back" href="/index.html">Back to home</a>
     {{CONTENT}}
   </div></article>
   <footer><div>
