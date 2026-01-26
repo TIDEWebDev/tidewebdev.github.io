@@ -178,6 +178,8 @@ footer {
   article { width: 100%; }
   footer { clear: right; }
 
+  header .logo { width: calc(100% - 32px); }
+
   .nav-show { width: 100%; }
   .article-hide { width: 0; }
   .footer-clear-left { clear: left; }
