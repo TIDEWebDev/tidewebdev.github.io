@@ -1,2 +1,3 @@
 index.html
+sitemap.html
 test.html
