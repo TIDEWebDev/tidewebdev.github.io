@@ -1,0 +1,134 @@
+:root {
+  --tide-yellow: #ddb940;
+  --tide-dark-yellow: #988030;
+  --tide-light-yellow: #f0d98b;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/font/roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Italic';
+  src: url('/font/roboto-italic.ttf');
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+
+  font-size: 14px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+html { background-color: #000; }
+body { background-color: var(--tide-yellow); }
+
+nav, article { overflow: hidden; }
+
+nav {
+  width: 20%;
+  float: left;
+
+  background-color: var(--tide-yellow);
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  li {
+    background-color: var(--tide-yellow);
+
+    transition-duration: 100ms;
+    transition-property: background-color;
+
+    border-bottom: 2px solid var(--tide-dark-yellow);
+
+    a {
+      padding: 8px;
+      padding-left: 16px;
+      display: block;
+
+      color: #000;
+      text-decoration: none;
+
+      font-weight: bold;
+    }
+  }
+
+  li:hover {
+    background-color: var(--tide-light-yellow);
+  }
+}
+
+article {
+  width: 80%;
+  float: right;
+
+  overflow: hidden;
+  background-color: #fff;
+
+  > div { margin: 16px; }
+  p { text-indent: 24px; }
+  .no-indent { text-indent: 0; }
+
+  h2, h3, h4, h5, h6 {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+
+    border-bottom: 1.5px solid #000;
+  }
+}
+
+header {
+  height: 156px;
+  position: relative;
+
+  font-size: 0;
+  background-image:
+    linear-gradient(to top, #112c66, #00000000),
+    url('/img/banner.webp');
+  background-size: cover;
+
+  .logo {
+    width: 420px;
+    filter: invert() drop-shadow(2px 2px 2px #000);
+
+    left: 16px;
+    bottom: 32px;
+    position: absolute;
+  }
+  .subtitle {
+    margin: 0;
+
+    font-size: 16px;
+
+    color: #fff;
+    filter: drop-shadow(2px 2px 1px #000);
+
+    left: 16px;
+    bottom: 16px;
+    position: absolute;
+  }
+}
+
+footer {
+  > div { margin: 16px; }
+  overflow: hidden;
+
+  clear: both;
+
+  color: #fff;
+  background-color: #000;
+}
+
+@media (max-width: 720px) {
+  nav { width: 0; }
+  article { width: 100%; }
+}
