@@ -21,3 +21,9 @@ Log in using your school E-mail address, without the "@seq.org" part. (Just your
 student ID.) From there, changing your password should be straightforward. Keep
 in mind this should also automatically sync with your school laptop
 PIN/password. Don't choose something you might forget.
+
+### Additional Information
+
+Some Windows/HP laptops given out by the school also support logging in with
+fingerprint recognition. This can be found in Windows settings under Accounts >
+Sign-in options.
