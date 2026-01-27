@@ -11,6 +11,7 @@
 ### About classes
 
 - [Electives](/classes/electives.html)
+- [Nucleus (Advisory)](/classes/nucleus.html)
 
 ### External links
 
