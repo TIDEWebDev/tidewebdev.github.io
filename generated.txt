@@ -1,6 +1,6 @@
 index.html
 sitemap.html
-test.html
 about\foothill.html
 classes\electives.html
 classes\nucleus.html
+clubs\about.html

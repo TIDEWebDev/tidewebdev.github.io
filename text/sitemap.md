@@ -2,11 +2,14 @@
 
 - [Home page](/index.html)
 - [Directory (This page)](/sitemap.html)
-- [Test page](/test.html)
 
 ### General information
 
 - [About dual-enrollment](/about/foothill.html)
+
+### About clubs
+
+- [TIDE's clubs](/clubs/about.html)
 
 ### About classes
 
