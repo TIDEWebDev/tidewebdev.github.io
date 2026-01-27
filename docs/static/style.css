@@ -47,6 +47,15 @@ article {
     width: 100%;
     height: 720px;
   }
+
+  .pdf, img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 header {

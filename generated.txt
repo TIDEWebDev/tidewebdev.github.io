@@ -5,4 +5,5 @@ classes\electives.html
 classes\nucleus.html
 clubs\about.html
 info\bus.html
+info\security.html
 info\shuttle.html

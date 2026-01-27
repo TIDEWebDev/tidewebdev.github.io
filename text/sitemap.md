@@ -5,6 +5,7 @@
 
 ### Useful information for students
 
+- [How to change your password (Important)](/info/security.html)
 - [School bus schedule](/info/bus.html)
 - [Marsh Road shuttle schedule](/info/shuttle.html)
 
