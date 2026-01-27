@@ -1,3 +1,5 @@
 index.html
 sitemap.html
 test.html
+about\foothill.html
+classes\electives.html

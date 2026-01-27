@@ -4,6 +4,14 @@
 - [Directory (This page)](/sitemap.html)
 - [Test page](/test.html)
 
+### General information
+
+- [About dual-enrollment](/about/foothill.html)
+
+### About classes
+
+- [Electives](/classes/electives.html)
+
 ### External links
 
 - [Official TIDE website](https://tideacademy.org/)

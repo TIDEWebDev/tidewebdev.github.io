@@ -133,7 +133,10 @@ footer {
   background-color: #000;
 }
 
-.hide-sidebar, .show-sidebar { display: none; }
+.hide-sidebar, .show-sidebar {
+  display: none;
+  font-size: 13px;
+}
 
 .show-sidebar {
   float: left;
