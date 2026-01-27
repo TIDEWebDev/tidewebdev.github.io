@@ -2,4 +2,10 @@
 
 cd $(dirname $0)
 cd docs
-python3 -m http.server
+if python3 -m http.server
+then
+  echo Called with Python3
+else
+  python -m http.server
+  echo Called with Python
+fi
