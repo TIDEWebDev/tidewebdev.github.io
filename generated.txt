@@ -4,6 +4,7 @@ about\foothill.html
 classes\electives.html
 classes\nucleus.html
 clubs\about.html
+clubs\robotics.html
 info\bus.html
 info\security.html
 info\shuttle.html

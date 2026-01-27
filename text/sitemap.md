@@ -16,6 +16,7 @@
 ### About clubs
 
 - [TIDE's clubs](/clubs/about.html)
+- [TIDE Astrobots (Robotics)](/clubs/robotics.html)
 
 ### About classes
 
