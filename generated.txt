@@ -4,3 +4,5 @@ about\foothill.html
 classes\electives.html
 classes\nucleus.html
 clubs\about.html
+info\bus.html
+info\shuttle.html

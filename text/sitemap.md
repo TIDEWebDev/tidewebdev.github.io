@@ -3,6 +3,11 @@
 - [Home page](/index.html)
 - [Directory (This page)](/sitemap.html)
 
+### Useful information for students
+
+- [School bus schedule](/info/bus.html)
+- [Marsh Road shuttle schedule](/info/shuttle.html)
+
 ### General information
 
 - [About dual-enrollment](/about/foothill.html)
